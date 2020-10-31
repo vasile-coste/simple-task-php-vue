@@ -1,0 +1,70 @@
+/**add overwrite bootstrap rules before include lib*/
+
+@import "bootstrap/bootstrap.scss";
+
+/** custom css */
+
+.alert {
+    display: none;
+    margin-bottom: 0;
+}
+
+.taskList {
+    padding: 5px 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    margin-bottom: 5px;
+}
+
+.newTask {
+    background-color: rgb(248, 246, 246);
+    padding: 5px 10px;
+}
+
+.profile {
+    padding: 5px 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.profile input {
+    width: 100%;
+    border: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: inherit;
+    border-color: rgb(255, 255, 255);
+}
+
+.profile input:not([disabled]) {
+    font-weight: 500;
+}
+
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.loginForm {
+    width: 100%;
+    max-width: 430px;
+    min-width: 330px;
+    margin: 0 auto;
+}
+
+#registerForm {
+    display: none;
+}
+
+.user-menu {
+    right: 0;
+    left: auto;
+}
+
+.user-item {
+    color: #212529 !important;
+}

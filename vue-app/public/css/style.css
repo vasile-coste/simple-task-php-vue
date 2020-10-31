@@ -1,0 +1,68 @@
+/** custom css */
+
+.alert {
+    white-space: pre;
+}
+
+.taskList {
+    padding: 5px 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    border: 1px solid #3f3f3f;
+    margin-bottom: 5px;
+}
+
+.newTask {
+    background-color: rgb(248, 246, 246);
+    padding: 5px 10px;
+}
+
+.profile {
+    padding: 5px 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.profile input {
+    width: 100%;
+    border: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: inherit;
+    border-color: rgb(255, 255, 255);
+}
+
+.profile input:not([disabled]) {
+    font-weight: 500;
+}
+
+.loginBox {
+    position: absolute;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5f5
+}
+
+.loginForm,
+.registerForm {
+    width: 100%;
+    min-width: 330px;
+    display: none;
+}
+
+.loginForm {
+    max-width: 376px;
+}
+
+.registerForm {
+    max-width: 830px;
+}
+
+.activeForm {
+    display: inherit;
+}
+
+.user-item {
+    color: #212529 !important;
+}
